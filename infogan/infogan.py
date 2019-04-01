@@ -224,4 +224,4 @@ class INFOGAN():
 
 if __name__ == '__main__':
     infogan = INFOGAN()
-    infogan.train(epochs=50, batch_size=128, sample_interval=50)
+    infogan.train(epochs=500, batch_size=128, sample_interval=50)
